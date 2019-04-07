@@ -1,0 +1,56 @@
+﻿@model WebServiceCall.Models.ApiConsumeVM
+
+@{
+    var viewName = Path.GetFileNameWithoutExtension(VirtualPath);
+}
+<script src="~/Scripts/ApiConsume/Index.js"></script>
+
+
+<div class="modal-header">
+    <h3 class="modal-title">Consumir servicio </h3>
+</div>
+<div class="modal-body">
+
+    <div class="row form-group">
+        <div class="col-md-12">
+            <div class="alert alert-info" role="alert">
+                Para consumir el servicio, debe escribir un código válido y presionar el botón <strong>"Consumir servicio"</strong>
+            </div>
+
+            @Html.LabelFor(m => m.sigla)
+            @Html.TextBoxFor(m => m.sigla, "", new { @class = "form-control", @maxLength = "3" })
+        </div>
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col-md-12">
+            <button type="button" onclick="send()" class="btn btn-success">Consumir servicio</button>
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-lg-12">
+            @Html.Label("Nombre")
+            @Html.TextBoxFor(m => m.name, "", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-md-12">
+            @Html.Label("Capital")
+            @Html.TextBoxFor(m => m.capital, "", new { @class = "form-control" })
+        </div>
+    </div>
+
+
+    <div class="row form-group">
+        <div class="col-md-12">
+            @Html.Label("Región")
+            @Html.TextBoxFor(m => m.region, "", new { @class = "form-control" })
+        </div>
+    </div>
+</div>
+
+
+

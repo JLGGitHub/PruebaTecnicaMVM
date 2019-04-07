@@ -1,0 +1,7 @@
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\bin\Debug\AlgoritmoEvolutivo.exe.config
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\bin\Debug\AlgoritmoEvolutivo.exe
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\bin\Debug\AlgoritmoEvolutivo.pdb
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\obj\Debug\AlgoritmoEvolutivo.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\obj\Debug\AlgoritmoEvolutivo.exe
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\obj\Debug\AlgoritmoEvolutivo.pdb
+C:\Users\Leonardo-PC\Documents\Desarrollos\WebServiceCall\AlgoritmoEvolutivo\obj\Debug\AlgoritmoEvolutivo.csprojAssemblyReference.cache
